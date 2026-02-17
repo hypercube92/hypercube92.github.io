@@ -840,6 +840,12 @@ a {
   margin-top: 4px;
 }
 
+@media (min-width: 1025px) {
+  .lx-best-link-bottom {
+    margin-inline-start: clamp(24px, 4vw, 40px);
+  }
+}
+
 .lx-film {
   padding: 0;
   overflow: hidden;
