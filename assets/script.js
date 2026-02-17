@@ -307,16 +307,6 @@
     var links = document.createElement('div');
     links.className = 'lx-google-links';
 
-    if (data.mapsUri) {
-      var maps = document.createElement('a');
-      maps.href = data.mapsUri;
-      maps.target = '_blank';
-      maps.rel = 'noopener noreferrer';
-      maps.className = 'lx-link';
-      maps.textContent = locale === 'fr' ? 'Voir sur Google Maps' : 'Open on Google Maps';
-      links.appendChild(maps);
-    }
-
     if (data.newReviewUri) {
       var write = document.createElement('a');
       write.href = data.newReviewUri;

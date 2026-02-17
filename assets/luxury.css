@@ -920,7 +920,7 @@ a {
 .lx-banner-title {
   margin: 8px 0 0;
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(1.7rem, 4vw, 3rem);
+  font-size: clamp(1.52rem, 3.4vw, 2.55rem);
   line-height: 0.95;
   font-weight: 500;
   text-transform: uppercase;
@@ -2872,7 +2872,12 @@ details[open] summary::after {
   }
 
   .lx-banner-title {
-    font-size: clamp(1.46rem, 6vw, 2.16rem);
+    font-size: clamp(1.16rem, 4.4vw, 1.6rem);
+  }
+
+  .lx-banner-copy {
+    font-size: clamp(1.02rem, 3.6vw, 1.2rem);
+    max-width: 34ch;
   }
 
   .lx-banner-actions {
@@ -2896,40 +2901,56 @@ details[open] summary::after {
   }
 
   .lx-cta-grid {
+    position: relative;
     width: min(100%, 760px);
-    grid-template-columns: minmax(132px, 0.78fr) minmax(0, 1fr) minmax(132px, 0.78fr);
-    gap: 8px;
+    display: block;
+    padding-inline: clamp(10px, 3vw, 20px);
   }
 
   .lx-cta-side {
-    overflow: hidden;
-    min-height: 280px;
+    position: absolute;
+    top: clamp(96px, 18vw, 180px);
+    width: clamp(132px, 26vw, 228px);
+    min-height: 0;
+    overflow: visible;
+    pointer-events: none;
+    z-index: 1;
   }
 
   .lx-cta-side-left {
+    left: clamp(-56px, -10vw, -16px);
     justify-content: flex-start;
   }
 
   .lx-cta-side-right {
+    right: clamp(-60px, -10vw, -18px);
     justify-content: flex-end;
   }
 
   .lx-cta-side img {
-    width: min(760px, 360%);
+    width: 100%;
+    max-width: none;
   }
 
   .lx-cta-side-right img {
-    width: min(760px, 370%);
-    transform: translate(50%, 10%);
+    transform: none;
   }
 
   .lx-cta-side-left img {
-    width: min(780px, 360%);
-    transform: translate(-50%, -10%) scale(1.5);
+    transform: none;
+  }
+
+  .lx-cta-center {
+    position: relative;
+    z-index: 2;
+    max-width: min(72vw, 420px);
+    margin: 0 auto;
+    text-align: center;
   }
 
   .lx-cta-center .lx-headline {
     font-size: clamp(1.48rem, 6vw, 2.22rem);
+    text-wrap: balance;
   }
 
   .lx-cta-center p {
@@ -3144,7 +3165,7 @@ details[open] summary::after {
   }
 
   .lx-banner-copy {
-    font-size: 1.5rem;
+    font-size: clamp(0.94rem, 4.8vw, 1.06rem);
   }
 
   .lx-banner-actions .lx-btn {
@@ -3162,31 +3183,46 @@ details[open] summary::after {
   }
 
   .lx-cta-grid {
-    grid-template-columns: 126px minmax(0, 1fr) 126px;
-    gap: 8px;
+    padding-inline: clamp(8px, 4vw, 14px);
   }
 
   .lx-cta-side {
-    min-height: 250px;
+    top: clamp(20px, 9vw, 58px);
+    width: clamp(108px, 33vw, 170px);
+  }
+
+  .lx-cta-side-left {
+    left: clamp(-64px, -16vw, -28px);
+  }
+
+  .lx-cta-side-right {
+    right: 0;
+    transform: translateX(50%);
   }
 
   .lx-cta-side-left img {
-    width: 920px;
-    transform: translate(-50%, -8%) scale(1.5);
+    width: 100%;
+    transform: none;
   }
 
   .lx-cta-side-right img {
-    width: 900px;
-    transform: translate(50%, 14%);
+    width: 100%;
+    transform: none;
+  }
+
+  .lx-cta-center {
+    max-width: 80%;
   }
 
   .lx-cta-center .lx-headline {
-    font-size: clamp(1.3rem, 7vw, 1.9rem);
+    font-size: clamp(1.56rem, 9vw, 2.24rem);
   }
 
   .lx-cta-center p {
     margin-top: 8px;
-    font-size: 0.88rem;
+    font-size: 0.94rem;
+    max-width: 20ch;
+    margin-inline: auto;
   }
 
   .lx-cta-center .lx-actions {
@@ -3195,7 +3231,9 @@ details[open] summary::after {
 
   .lx-cta-center .lx-btn {
     min-height: 44px;
-    padding: 11px 16px;
+    min-width: min(76vw, 280px);
+    padding: 11px 18px;
+    white-space: nowrap;
   }
 
   .lx-footer-grid {

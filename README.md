@@ -43,18 +43,3 @@ Sans provider configuré, le script reconstruit quand même le site EN avec les 
 ## Core pages
 - FR: home, menus, booking, private events, events, reviews, contact, careers, FAQ, blog, legal, privacy, cookies, order
 - EN: mirrored structure
-
-## Video demo (Remotion)
-
-Generate a 10-second showcase video from existing Playwright screenshots:
-
-```bash
-cd video/remotion
-npm install
-npm run render:demo
-# short FR cut
-npm run render:demo:fr:3s
-```
-
-Output:
-- `output/remotion/site-showcase.mp4`

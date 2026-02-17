@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const fs = require('node:fs');
-const path = require('node:path');
+import fs from 'node:fs';
+import path from 'node:path';
 
 const args = process.argv.slice(2);
 
@@ -198,7 +198,7 @@ function mapUrlsInHtml(html) {
 function rewriteDomMetadata(html) {
   let updated = mapUrlsInHtml(html);
   updated = updated.replace(/<html\s+[^>]*lang="[^"]+"/i, '<html lang="en"');
-  updated = updated.replace(/<meta property="og:locale"[^>]+content="[^"]+"/i, '<meta property="og:locale" content="en_GB" />');
+  updated = updated.replace(/<meta property="og:locale"[^>]*>/i, '<meta property="og:locale" content="en_GB" />');
   return updated;
 }
 
