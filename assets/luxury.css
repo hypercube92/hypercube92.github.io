@@ -1042,9 +1042,19 @@ a {
   text-align: center;
 }
 
+.lx-cta-heading-fr .lx-desktop-break {
+  display: none;
+}
+
 .lx-cta-center p {
   margin-top: 14px;
   color: var(--lx-ink-soft);
+}
+
+@media (min-width: 981px) {
+  .lx-cta-heading-fr .lx-desktop-break {
+    display: inline;
+  }
 }
 
 .lx-footer {
