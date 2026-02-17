@@ -1009,6 +1009,10 @@ a {
   gap: 18px;
 }
 
+.lx-cta-fr .lx-cta-grid {
+  grid-template-columns: 1fr 2.1fr 1fr;
+}
+
 .lx-cta-side {
   display: flex;
   justify-content: center;
@@ -1060,6 +1064,10 @@ a {
 @media (min-width: 981px) {
   .lx-cta-heading-fr .lx-desktop-break {
     display: inline;
+  }
+
+  .lx-cta-heading-fr .lx-cta-line {
+    white-space: nowrap;
   }
 }
 
