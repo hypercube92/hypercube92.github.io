@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://legeneralwagram.com/sitemap.xml

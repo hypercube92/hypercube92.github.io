@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Réservation restaurant Paris 17 | Le Général Wagram</title>
+    <meta name="description" content="Réservez votre table au Général Wagram en quelques secondes. Brasserie ouverte 24h/24 à Paris 17." />
+    <link rel="canonical" href="https://legeneralwagram.com/fr/reserver/" />
+    <link rel="alternate" hreflang="en" href="https://legeneralwagram.com/en/book/" />
+    <link rel="stylesheet" href="/assets/luxury.css" />
+    <script defer src="/assets/script.js"></script>
+  </head>
+  <body>
+    <header class="site-header lx-header"><div class="header-wrap lx-header-row"><a class="brand lx-brand" href="/fr/"><img src="/assets/images/general/optimized/logo.svg" alt="Logo Le General" /><span>Le Général</span></a><button class="mobile-menu-btn lx-mobile-toggle" data-menu-toggle><span></span><span></span><span></span></button><nav class="main-nav lx-nav" data-main-nav><a href="/fr/">Accueil</a><a href="/fr/menu/">Menus</a><a href="/fr/reserver/">Réserver</a><a href="/fr/privatisation/">Privatisation</a><a href="/fr/avis-clients/">Avis</a><a href="/fr/contact/">Contact</a></nav><div class="lang-switch lx-lang"><a href="/fr/reserver/" class="current">FR</a><a href="/en/book/">EN</a></div></div></header>
+
+    <main class="container">
+      <section class="hero reveal"><div class="hero-inner"><p class="eyebrow">Réservation</p><h1>Réserver une table en ligne</h1><p>Choisissez votre date, votre heure et le nombre de convives. Confirmation rapide par e-mail.</p></div></section>
+
+      <section class="section">
+        <div class="grid grid-2">
+          <article class="form-wrap reveal">
+            <h2>Formulaire de réservation</h2>
+            <form data-form data-track="reservation-form" data-success="Votre demande de réservation est envoyée. Nous vous confirmons rapidement." data-error="Merci de renseigner tous les champs obligatoires." data-error-email="Merci d'indiquer une adresse e-mail valide.">
+              <div class="form-grid">
+                <label>Nom complet *<input type="text" name="name" required /></label>
+                <label>E-mail *<input type="email" name="email" required /></label>
+                <label>Téléphone *<input type="tel" name="phone" required /></label>
+                <label>Nombre de convives *
+                  <select name="guests" required>
+                    <option value="">Choisir</option>
+                    <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7+</option>
+                  </select>
+                </label>
+                <label>Date *<input type="date" name="date" required /></label>
+                <label>Heure *<input type="time" name="time" required /></label>
+                <label style="grid-column: 1 / -1;">Commentaire<textarea name="comment" placeholder="Occasion spéciale, préférence de salle..." rows="4"></textarea></label>
+              </div>
+              <p class="form-message" data-form-message></p>
+              <p class="form-message ok" data-reservation-hint></p>
+              <div class="actions"><button class="btn btn-primary" type="submit">Envoyer la réservation</button></div>
+            </form>
+          </article>
+
+          <article class="card reveal">
+            <p class="kicker">Infos utiles</p>
+            <h3>Politique de réservation</h3>
+            <ul>
+              <li>Votre table est maintenue 15 minutes après l'heure prévue.</li>
+              <li>Pour les groupes de plus de 8 personnes, privilégiez la page privatisation.</li>
+              <li>En cas de retard, merci de prévenir l'équipe par téléphone.</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-outline" href="tel:+33145223344">Appeler le restaurant</a>
+              <a class="btn btn-outline" href="/fr/privatisation/">Réservation de groupe</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="footer-inner"><div><h3>Le Général Wagram</h3><p>Réservation rapide en ligne.</p></div><div><h3>Pages utiles</h3><ul><li><a href="/fr/menu/">Nos menus</a></li><li><a href="/fr/faq/">FAQ</a></li></ul></div><div><h3>Contact</h3><ul><li><a href="tel:+33145223344">+33 1 45 22 33 44</a></li><li><a href="mailto:contact@legeneralwagram.com">contact@legeneralwagram.com</a></li></ul></div></div><p class="legal">(c) <span data-year></span> Le Général Wagram.</p></footer>
+    <div class="mobile-cta"><a href="/fr/reserver/">Réserver</a><a href="tel:+33145223344">Appeler</a></div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FoodEstablishmentReservation",
+        "reservationFor": {
+          "@type": "Restaurant",
+          "name": "Le Général Wagram",
+          "url": "https://legeneralwagram.com/fr/"
+        }
+      }
+    </script>
+  </body>
+</html>

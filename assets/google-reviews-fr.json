@@ -1,0 +1,51 @@
+{
+  "average_rating": 4,
+  "total_review_count": 1390,
+  "mapsUri": "https://maps.google.com/maps?cid=15955409701813968156",
+  "newReviewUri": "https://search.google.com/local/writereview?placeid=ChIJrWrAaOtv5kcRHF1xopYAbd0",
+  "placeId": "ChIJrWrAaOtv5kcRHF1xopYAbd0",
+  "reviews": [
+    {
+      "name": "M. Y",
+      "rating": 5,
+      "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocJc3-Oym_OzPLSoP1__wexkonJqqWG1r3_8F05ZblqsPOtieQ%3ds120-c-rp-mo-ba3-br100",
+      "text": "Un immense bravo a Alexis, notre serveur au General, Avenue de Wagram ! Son service a ete tout simplement exceptionnel. Ultra accueillant, genereux en conseils et d'une efficacite remarquable, il a rendu notre diner parfait. Merci pour ce super moment, Alexis, vous etes la preuve que l'humain fait toute la difference !",
+      "provider_created": "2025-10-19T03:36:47.463998Z"
+    },
+    {
+      "name": "Saloua Sadik",
+      "rating": 5,
+      "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocJvfAWP1ndDiwvqKNx5wJAqGfAOo9wNRXa5se8BWpj_ilIE7w%3ds120-c-rp-mo-br100",
+      "text": "Super adresse ! Tout etait delicieux, lambiance au top et le service adorable. Je reviendrai sans hesiter !",
+      "provider_created": "2025-10-18T11:09:40.098155Z"
+    },
+    {
+      "name": "A m",
+      "rating": 4,
+      "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocIYtGSS8_F442YuFPrJ7h71xno5bBLhGevUMSIYOKOgZjtCylVk%3ds120-c-rp-mo-ba6-br100",
+      "text": "Endroit sympa avec happy hour pour boire ouvert 24/24. Reservation possible pour une dizaine de personnes. Bieres et cocktails tres bons",
+      "provider_created": "2025-10-15T11:46:40.607845Z"
+    },
+    {
+      "name": "Houman Soleimani Seresht",
+      "rating": 5,
+      "profile_photo": "https://lh3.googleusercontent.com/a-/ALV-UjV8I1Jowie-LAOxaRHg6JLFAKtyHNS_bSW9pm3qZCo8EKd_3S2R%3ds120-c-rp-mo-ba3-br100",
+      "text": "The best place for taking late dinner after 12. Friendly staffs, nice serving and delicious foods. 100% recommended!",
+      "provider_created": "2025-10-04T09:45:47.760631Z"
+    },
+    {
+      "name": "Daniil Sukhonos",
+      "rating": 5,
+      "profile_photo": "https://lh3.googleusercontent.com/a-/ALV-UjXXPSA745_AIld4GDiSpRV7IY90DWNwKq-aIwKtaUvSCd5FMZDc%3ds120-c-rp-mo-ba2-br100",
+      "text": "Good quality French cuisine. They have very attractive lunch option for a reasonable price.",
+      "provider_created": "2025-10-03T11:17:26.579304Z"
+    },
+    {
+      "name": "Cevenn' Campers",
+      "rating": 5,
+      "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocI10azCeKc-DO9yJLJrvaLNLcEYkl33ty3ahv0xlGNYnEucdA%3ds120-c-rp-mo-br100",
+      "text": "Un service top, des produits excellent, un prix raisonnable",
+      "provider_created": "2025-09-30T10:26:41.255211Z"
+    }
+  ]
+}
