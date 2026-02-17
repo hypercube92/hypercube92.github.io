@@ -1310,7 +1310,7 @@ a {
   backdrop-filter: none;
   background: var(--lx-bg-dark);
   border-bottom: 1px solid rgba(247, 244, 241, 0.14);
-  padding: 18px 0;
+  padding: clamp(16px, 2.8vh, 28px) 0;
 }
 
 .header-wrap {
