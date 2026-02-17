@@ -1343,6 +1343,11 @@ a {
   font-size: 1.16rem;
 }
 
+/* Match home header geometry when legacy + new classes coexist */
+.brand.lx-brand {
+  font-size: 1.25rem;
+}
+
 .brand-badge {
   width: 40px;
   height: 40px;
@@ -1427,6 +1432,10 @@ a {
   min-width: 34px;
   min-height: 32px;
   padding: 7px 11px;
+}
+
+.lang-switch.lx-lang a {
+  min-width: var(--touch-target);
 }
 
 .lang-switch a.current {
